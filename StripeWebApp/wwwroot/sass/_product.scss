@@ -1,0 +1,27 @@
+﻿body {
+    .product {
+        .productTitle, .productBtn {
+            opacity: 0;
+        }
+
+        .productImg {
+            width: 300px;
+            height: 30vh;
+            object-fit: cover;
+        }
+
+        :hover {
+            .productTitle, .productBtn {
+                opacity: 1;
+            }
+
+            .productImg {
+                opacity: 0.4;
+                
+                //opacity: 1;
+                //transform: scale(1.5) translateY(70%);
+                //object-fit: scale-down;
+            }
+        }
+    }
+}
